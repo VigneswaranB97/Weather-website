@@ -1,6 +1,6 @@
 // const { response } = require("express");
 
-console.log("Client Side");
+// console.log("Client Side");
 
 // fetch("https://puzzle.mead.io/puzzle").then((response) => {
 //   response.json().then((data) => {
