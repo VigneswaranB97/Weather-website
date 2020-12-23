@@ -21,6 +21,7 @@ const forecast = (lon, lat, callback) => {
         temp: data.current.temperature,
         probability: data.current.precip,
         weather: data.current.weather_descriptions[0],
+        direction: data.current.wind_dir,
       });
     }
   });
