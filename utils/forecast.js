@@ -12,8 +12,8 @@ const forecast = (lon, lat, callback) => {
       callback("Enter correct details");
     } else {
       const data = body;
-      //   console.log(data);
-      //   console.log(data.current);
+      // console.log(data);
+      console.log(data.current.wind_dir);
       //   console.log(
       //     `${data.current.temperature} degree. Prob: ${data.current.precip}. Weather Discription: ${data.current.weather_descriptions[0]}`
       //   );
