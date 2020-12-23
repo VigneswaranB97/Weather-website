@@ -34,7 +34,7 @@ weatherForm.addEventListener("submit", (e) => {
       if (data.error) {
         msg1.textContent = `${data.error}`;
       } else {
-        msg1.textContent = `Weather for ${data.location}`;
+        msg1.textContent = `Weather for ${data.location} in direction ${data.direction}`;
         msg2.textContent = `${data.weather}`;
       }
     });
